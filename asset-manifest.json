@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.5f361e03.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.5debcefb.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.5debcefb.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.94aeab10.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.94aeab10.js.map",
+    "static/css/2.b1c0a7e4.chunk.css": "/react-portfolio/static/css/2.b1c0a7e4.chunk.css",
+    "static/js/2.acadc3e5.chunk.js": "/react-portfolio/static/js/2.acadc3e5.chunk.js",
+    "static/js/2.acadc3e5.chunk.js.map": "/react-portfolio/static/js/2.acadc3e5.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.c6c95b82a6f5644ca714bf77b9290669.js": "/react-portfolio/precache-manifest.c6c95b82a6f5644ca714bf77b9290669.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/2.b1c0a7e4.chunk.css.map": "/react-portfolio/static/css/2.b1c0a7e4.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/react-portfolio/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.acadc3e5.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.acadc3e5.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.jfif": "/react-portfolio/static/media/bootstrap.1134a391.jfif",
+    "static/media/ecommerce.png": "/react-portfolio/static/media/ecommerce.5a6e1025.png",
+    "static/media/es6.png": "/react-portfolio/static/media/es6.a263b075.png",
+    "static/media/facial.png": "/react-portfolio/static/media/facial.46669fd0.png",
+    "static/media/git.jpg": "/react-portfolio/static/media/git.6a149d7f.jpg",
+    "static/media/htmlcssjs.png": "/react-portfolio/static/media/htmlcssjs.a10a2c24.png",
+    "static/media/python.png": "/react-portfolio/static/media/python.99abc420.png",
+    "static/media/reactjs-thumb.jpg": "/react-portfolio/static/media/reactjs-thumb.3ae5278c.jpg",
+    "static/media/index.css": "/react-portfolio/static/media/roboto-latin-900italic.ebf6d164.woff2",
+    "static/media/rolodex.png": "/react-portfolio/static/media/rolodex.9daea2fc.png",
+    "static/media/space.jpg": "/react-portfolio/static/media/space.de1e5e64.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94aeab10.js",
+    "static/css/2.b1c0a7e4.chunk.css",
+    "static/js/2.acadc3e5.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.5debcefb.chunk.js"
+  ]
+}
