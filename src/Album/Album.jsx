@@ -64,22 +64,22 @@ const useStyles = makeStyles(theme => ({
 const cards = [
   {
     heading: 'React Ecommerce Application',
-    subheading: `This is a live ecommerce demo built with React, Redux and Firebase`,
+    subheading: `This is a live ecommerce demo built with React, Redux and Firebase with Oauth authentication.`,
     img: '',
     link: `https://paul---.github.io/e-commerce/`
   },
   {
-    heading: 'React Ecommerce Application',
-    subheading: `This is a live ecommerce demo built with React, Redux and Firebase`,
+    heading: 'Online Rolodex Application',
+    subheading: `This is a simple React contact search application built to demonstrate understanding of fundamental React concepts.`,
     img: '',
-    link: `https://paul---.github.io/e-commerce/`
+    link: `https://paul---.github.io/my-robot-contacts/`
   },
   {
-    heading: 'React Ecommerce Application',
-    subheading: `This is a live ecommerce demo built with React, Redux and Firebase`,
+    heading: 'Facial Recognition Game',
+    subheading: `This is a live ecommerce demo built with React. Includes a postgreSQL database with secure authentication. Deployed with Heroku`,
     img: '',
-    link: `https://paul---.github.io/e-commerce/`
-  },
+    link: `https://paul---.github.io/facial-recognition/`
+  }
 ];
 
 export default function Album() {
@@ -88,7 +88,7 @@ export default function Album() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <AppBar position='relative'>
+      {/* <AppBar position='relative'>
         <Grid container justify='center'>
           <Toolbar>
             <Typography variant='h6' color='inherit' noWrap>
@@ -96,7 +96,7 @@ export default function Album() {
             </Typography>
           </Toolbar>
         </Grid>
-      </AppBar>
+      </AppBar> */}
       <main>
         {/* Hero unit */}
         <div
