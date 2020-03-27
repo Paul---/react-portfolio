@@ -137,7 +137,7 @@ export default function Album() {
               color='textPrimary'
               gutterBottom
             >
-              Always be creating, always be learning...{' '}
+              Always be creating {'&'} Never stop learning...{' '}
             </Typography>
             <Typography
               style={{ color: '#ffffff' }}
