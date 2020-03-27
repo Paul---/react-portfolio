@@ -137,7 +137,7 @@ export default function Album() {
               color='textPrimary'
               gutterBottom
             >
-              Always be creating, Always be learning...{' '}
+              Always be creating, always be learning...{' '}
             </Typography>
             <Typography
               style={{ color: '#ffffff' }}
@@ -146,7 +146,7 @@ export default function Album() {
               color='textSecondary'
               paragraph
             >
-              Contact me
+              Let's do something great together...
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify='center'>
