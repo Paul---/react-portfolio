@@ -29,11 +29,9 @@ import bootstrap from '../assets/img/bootstrap.jfif';
 import es6 from '../assets/img/es6.png';
 import firebase from '../assets/img/firebase.png';
 import heroku from '../assets/img/heroku.png';
-import hooks from '../assets/img/hooks.png';
 import material from '../assets/img/material.jpg';
 import mongo from '../assets/img/mongo.png';
 import postgres from '../assets/img/postgres.png';
-import python from '../assets/img/python.png';
 
 function Copyright() {
   return (
@@ -83,7 +81,8 @@ const useStyles = makeStyles(theme => ({
 const cards = [
   {
     heading: 'React Ecommerce Application',
-    subheading: `This is a live ecommerce demo built with React, Redux and Firebase + Oauth authentication. You can even simulate a credit transaction. <This is a desktop only version>`,
+    subheading: `This is a live ecommerce demo built with React, Redux and Firebase + OAuth authentication. You can even simulate a credit transaction. `,
+    note: `{ Desktop Only }`,
     img: ecommerce,
     link: `https://paul---.github.io/e-commerce/`,
     githubLink: `https://github.com/Paul---/e-commerce`
@@ -137,11 +136,21 @@ export default function Album() {
               color='textPrimary'
               gutterBottom
             >
-              Always be creating {'&'} Never stop learning...{' '}
+              Hi, My name is Paul.
             </Typography>
             <Typography
               style={{ color: '#ffffff' }}
               variant='h5'
+              align='center'
+              color='textSecondary'
+              paragraph
+            >
+              I am a full stack developer looking for great opportunities with
+              great people.
+            </Typography>
+            <Typography
+              style={{ color: '#ffffff' }}
+              variant='h6'
               align='center'
               color='textSecondary'
               paragraph
@@ -169,61 +178,30 @@ export default function Album() {
           <Paper
             xs={12}
             md={12}
-            style={{ width: '100%', marginBottom: '12px' }}
+            style={{ width: '100%', marginBottom: '12px', marginTop: '12px' }}
           >
-            <Typography variant='h4' component='h4'>
-              Here are a few projects that I built in my own time. Feel free to
-              check them out.{' '}
+            <Typography variant='h6' component='h6'>
+              Current learning focus:
             </Typography>
-            <Typography variant='h4' component='h4'>
-              Enjoy!
-            </Typography>
-          </Paper>
-          {/* End hero unit */}
-          <Grid container spacing={4}>
-            {cards.map(card => (
-              <Grid item key={card} xs={12} sm={6} md={4}>
-                <Card className={classes.card}>
-                  <CardMedia
-                    className={classes.cardMedia}
-                    image={card.img}
-                    title='Image title'
-                  />
-                  <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant='h5' component='h2'>
-                      {card.heading}
-                    </Typography>
-                    <Typography>{card.subheading}</Typography>
-                    <div>
-                      <Button
-                        onClick={() => window.open(card.link, '_blank')}
-                        variant='contained'
-                        color='primary'
-                        style={{ margin: '5px' }}
-                      >
-                        Live Demo
-                      </Button>
-                      <Button
-                        onClick={() => window.open(card.githubLink, '_blank')}
-                        variant='contained'
-                        color='Primary'
-                      >
-                        Github Repo
-                      </Button>
-                    </div>
-                  </CardContent>
-                  <CardActions></CardActions>
-                </Card>
+
+            <Grid container>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={htmlcssjs} />
               </Grid>
-            ))}
-          </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={reactjs} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={nodeEx} />
+              </Grid>
+            </Grid>
+          </Paper>
           <Paper
             xs={12}
             md={12}
             style={{ width: '100%', marginBottom: '12px', marginTop: '12px' }}
           >
-            {/* //////////////////////////////////////////////////////////// ////////////////////////////////////////     */}
-            <Typography variant='h5' component='h5'>
+            <Typography variant='h6' component='h6'>
               Some of the Technologies I have used:
             </Typography>
 
@@ -266,6 +244,58 @@ export default function Album() {
               </Grid>
             </Grid>
           </Paper>
+          <Paper
+            xs={12}
+            md={12}
+            style={{ width: '100%', marginBottom: '12px' }}
+          >
+            <Typography variant='h4' component='h4'>
+              Here are a few projects that I built in my own time. Feel free to
+              check them out.{' '}
+            </Typography>
+            <Typography variant='h4' component='h4'>
+              Enjoy!
+            </Typography>
+          </Paper>
+          {/* End hero unit */}
+          <Grid container spacing={4}>
+            {cards.map(card => (
+              <Grid item key={card} xs={12} sm={6} md={4}>
+                <Card className={classes.card}>
+                  <CardMedia
+                    className={classes.cardMedia}
+                    image={card.img}
+                    title='Image title'
+                  />
+                  <CardContent className={classes.cardContent}>
+                    <Typography gutterBottom variant='h5' component='h2'>
+                      {card.heading}
+                    </Typography>{' '}
+                    <Typography>{card.note}</Typography>
+                    <Typography>{card.subheading}</Typography>
+                    <div>
+                      <Button
+                        onClick={() => window.open(card.link, '_blank')}
+                        variant='contained'
+                        color='primary'
+                        style={{ margin: '5px' }}
+                      >
+                        Live Demo
+                      </Button>
+                      <Button
+                        onClick={() => window.open(card.githubLink, '_blank')}
+                        variant='contained'
+                        color='Primary'
+                      >
+                        Github Repo
+                      </Button>
+                    </div>
+                  </CardContent>
+                  <CardActions></CardActions>
+                </Card>
+              </Grid>
+            ))}
+          </Grid>
         </Container>
       </main>
       {/* Footer */}
