@@ -23,6 +23,8 @@ import git from '../assets/img/git.jpg';
 import reactjs from '../assets/img/reactjs-thumb.jpg';
 import nodeEx from '../assets/img/node-express.png';
 import redux from '../assets/img/redux.png';
+import java from '../assets/img/java.png';
+import spring from '../assets/img/spring.png';
 import github from '../assets/img/github.jpg';
 import htmlcssjs from '../assets/img/htmlcssjs.png';
 import bootstrap from '../assets/img/bootstrap.jfif';
@@ -109,15 +111,6 @@ export default function Album() {
   return (
     <React.Fragment>
       <CssBaseline />
-      {/* <AppBar position='relative'>
-        <Grid container justify='center'>
-          <Toolbar>
-            <Typography variant='h6' color='inherit' noWrap>
-              Welcome. I'm so glad you stopped by...
-            </Typography>
-          </Toolbar>
-        </Grid>
-      </AppBar> */}
       <main>
         {/* Hero unit */}
         <div
@@ -180,21 +173,12 @@ export default function Album() {
             md={12}
             style={{ width: '100%', marginBottom: '12px', marginTop: '12px' }}
           >
-            <Typography variant='h6' component='h6'>
-              Current learning focus:
+            <Typography variant='h5' component='h6'>
+              Currently learning:
             </Typography>
-
-            <Grid container>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={htmlcssjs} />
-              </Grid>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={reactjs} />
-              </Grid>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={nodeEx} />
-              </Grid>
-            </Grid>
+            <Typography variant='h6' component='h6'>
+              {`Java & Spring Framework`}
+            </Typography>
           </Paper>
           <Paper
             xs={12}
@@ -312,3 +296,5 @@ export default function Album() {
 }
 
 const iconStyles = { width: '100%', height: '70%', margin: '1px' };
+
+const focusStyles = { border:'1px blue solid', width: '125px', height: '90%', marginRight:'10px' };
