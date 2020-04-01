@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.5f361e03.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.94e3a128.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.94e3a128.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.c25afc87.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c25afc87.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.94aeab10.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.94aeab10.js.map",
     "static/css/2.b1c0a7e4.chunk.css": "/react-portfolio/static/css/2.b1c0a7e4.chunk.css",
     "static/js/2.acadc3e5.chunk.js": "/react-portfolio/static/js/2.acadc3e5.chunk.js",
     "static/js/2.acadc3e5.chunk.js.map": "/react-portfolio/static/js/2.acadc3e5.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.07766e922d8e3f77c8de494d44cf0e7a.js": "/react-portfolio/precache-manifest.07766e922d8e3f77c8de494d44cf0e7a.js",
+    "precache-manifest.923a43fba541c6f1cd2d5cfb6f25f1a7.js": "/react-portfolio/precache-manifest.923a43fba541c6f1cd2d5cfb6f25f1a7.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.b1c0a7e4.chunk.css.map": "/react-portfolio/static/css/2.b1c0a7e4.chunk.css.map",
     "static/css/main.5f361e03.chunk.css.map": "/react-portfolio/static/css/main.5f361e03.chunk.css.map",
@@ -20,17 +20,18 @@
     "static/media/facial.png": "/react-portfolio/static/media/facial.46669fd0.png",
     "static/media/git.jpg": "/react-portfolio/static/media/git.6a149d7f.jpg",
     "static/media/htmlcssjs.png": "/react-portfolio/static/media/htmlcssjs.a10a2c24.png",
-    "static/media/python.png": "/react-portfolio/static/media/python.99abc420.png",
+    "static/media/java.png": "/react-portfolio/static/media/java.2d02199b.png",
     "static/media/reactjs-thumb.jpg": "/react-portfolio/static/media/reactjs-thumb.3ae5278c.jpg",
     "static/media/index.css": "/react-portfolio/static/media/roboto-latin-900italic.ebf6d164.woff2",
     "static/media/rolodex.png": "/react-portfolio/static/media/rolodex.9daea2fc.png",
-    "static/media/space.jpg": "/react-portfolio/static/media/space.de1e5e64.jpg"
+    "static/media/space.jpg": "/react-portfolio/static/media/space.de1e5e64.jpg",
+    "static/media/spring.png": "/react-portfolio/static/media/spring.23d3042c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.94aeab10.js",
     "static/css/2.b1c0a7e4.chunk.css",
     "static/js/2.acadc3e5.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.94e3a128.chunk.js"
+    "static/js/main.c25afc87.chunk.js"
   ]
 }
