@@ -234,7 +234,7 @@ export default function Album() {
             style={{ width: '100%', marginBottom: '12px' }}
           >
             <Typography variant='h4' component='h4'>
-              Here are a few projects that I built in my own time. Feel free to
+              Here are a few projects that I built on my own time. Feel free to
               check them out.{' '}
             </Typography>
             <Typography variant='h4' component='h4'>
