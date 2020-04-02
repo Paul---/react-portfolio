@@ -173,18 +173,6 @@ export default function Album() {
             md={12}
             style={{ width: '100%', marginBottom: '12px', marginTop: '12px' }}
           >
-            <Typography variant='h5' component='h6'>
-              Currently learning:
-            </Typography>
-            <Typography variant='h6' component='h6'>
-              {`Java & Spring Framework`}
-            </Typography>
-          </Paper>
-          <Paper
-            xs={12}
-            md={12}
-            style={{ width: '100%', marginBottom: '12px', marginTop: '12px' }}
-          >
             <Typography variant='h6' component='h6'>
               Some of the Technologies I have used:
             </Typography>
@@ -297,4 +285,9 @@ export default function Album() {
 
 const iconStyles = { width: '100%', height: '70%', margin: '1px' };
 
-const focusStyles = { border:'1px blue solid', width: '125px', height: '90%', marginRight:'10px' };
+const focusStyles = {
+  border: '1px blue solid',
+  width: '125px',
+  height: '90%',
+  marginRight: '10px'
+};
