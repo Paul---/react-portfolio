@@ -116,7 +116,7 @@ export default function Album() {
         <div
           className={classes.heroContent}
           style={{
-            backgroundImage: `url(${space})`
+            backgroundImage: `url(${space})`,
           }}
         >
           <Container maxWidth='sm'>
@@ -161,6 +161,20 @@ export default function Album() {
                     color='primary'
                   >
                     Email Me
+                  </Button>
+                </Grid>
+                <Grid item>
+                  <Button
+                    onClick={() =>
+                      window.open(
+                        'https://docs.google.com/document/d/1nSSgX31a_pcIGmDxLUhCUmF9P741XY6YgoteWiBdx3Q/edit?usp=sharing',
+                        '_blank'
+                      )
+                    }
+                    variant='contained'
+                    color='primary'
+                  >
+                    View My Resume
                   </Button>
                 </Grid>
               </Grid>
@@ -231,7 +245,7 @@ export default function Album() {
           </Paper>
           {/* End hero unit */}
           <Grid container spacing={4}>
-            {cards.map(card => (
+            {cards.map((card) => (
               <Grid item key={card} xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
                   <CardMedia
