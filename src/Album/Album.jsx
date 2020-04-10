@@ -167,7 +167,7 @@ export default function Album() {
                   <Button
                     onClick={() =>
                       window.open(
-                        'https://docs.google.com/document/d/1nSSgX31a_pcIGmDxLUhCUmF9P741XY6YgoteWiBdx3Q/edit?usp=sharing',
+                        'https://docs.google.com/document/d/1nSSgX31a_pcIGmDxLUhCUmF9P741XY6YgoteWiBdx3Q/edit?usp=sharin',
                         '_blank'
                       )
                     }
