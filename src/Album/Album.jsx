@@ -23,17 +23,17 @@ import git from '../assets/img/git.jpg';
 import reactjs from '../assets/img/reactjs-thumb.jpg';
 import nodeEx from '../assets/img/node-express.png';
 import redux from '../assets/img/redux.png';
-import java from '../assets/img/java.png';
-import spring from '../assets/img/spring.png';
 import github from '../assets/img/github.jpg';
-import htmlcssjs from '../assets/img/htmlcssjs.png';
+import htmlcss from '../assets/img/htmlcss.png';
 import bootstrap from '../assets/img/bootstrap.jfif';
-import es6 from '../assets/img/es6.png';
 import firebase from '../assets/img/firebase.png';
 import heroku from '../assets/img/heroku.png';
 import material from '../assets/img/material.jpg';
 import mongo from '../assets/img/mongo.png';
 import postgres from '../assets/img/postgres.png';
+import python from '../assets/img/python.png';
+import es6 from '../assets/img/es6.png';
+import javascript from '../assets/img/javascript.png';
 
 function Copyright() {
   return (
@@ -48,36 +48,36 @@ function Copyright() {
   );
 }
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   icon: {
-    marginRight: theme.spacing(2)
+    marginRight: theme.spacing(2),
   },
   heroContent: {
     backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(8, 0, 6)
+    padding: theme.spacing(8, 0, 6),
   },
   heroButtons: {
-    marginTop: theme.spacing(4)
+    marginTop: theme.spacing(4),
   },
   cardGrid: {
     paddingTop: theme.spacing(8),
-    paddingBottom: theme.spacing(8)
+    paddingBottom: theme.spacing(8),
   },
   card: {
     height: '100%',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
   },
   cardMedia: {
-    paddingTop: '56.25%' // 16:9
+    paddingTop: '56.25%', // 16:9
   },
   cardContent: {
-    flexGrow: 1
+    flexGrow: 1,
   },
   footer: {
     backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(6)
-  }
+    padding: theme.spacing(6),
+  },
 }));
 
 const cards = [
@@ -87,22 +87,22 @@ const cards = [
     note: `{ Desktop Only }`,
     img: ecommerce,
     link: `https://paul---.github.io/e-commerce/`,
-    githubLink: `https://github.com/Paul---/e-commerce`
+    githubLink: `https://github.com/Paul---/e-commerce`,
   },
   {
     heading: 'Facial Recognition Game',
-    subheading: `This is a live facial recognition game demo built with React (includes hooks). Includes a postgreSQL database with secure authentication. Responsive design. Deployed with Heroku.`,
+    subheading: `This is a full stack JavaScript facial recognition game built with React and Nodejs (includes hooks). Includes a postgreSQL database with user authentication. Responsive design. Deployed with Heroku.`,
     img: facial,
     link: `https://paul---.github.io/facial-recognition/`,
-    githubLink: `https://github.com/Paul---/facial-recognition`
+    githubLink: `https://github.com/Paul---/facial-recognition`,
   },
   {
     heading: 'Online Rolodex Application',
     subheading: `This is a simple React contact search application built to demonstrate understanding of fundamental React concepts. Responsive design. Used React hooks to implement functionality.`,
     img: rolodex,
     link: `https://paul---.github.io/my-online-rolodex/`,
-    githubLink: `https://github.com/Paul---/my-online-rolodex`
-  }
+    githubLink: `https://github.com/Paul---/my-online-rolodex`,
+  },
 ];
 
 export default function Album() {
@@ -181,66 +181,17 @@ export default function Album() {
             </div>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth='md'>
-          <Paper
-            xs={12}
-            md={12}
-            style={{ width: '100%', marginBottom: '12px', marginTop: '12px' }}
-          >
-            <Typography variant='h6' component='h6'>
-              Some of the Technologies I have used:
-            </Typography>
-
-            <Grid container>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={htmlcssjs} />
-              </Grid>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={reactjs} />
-              </Grid>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={nodeEx} />
-              </Grid>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={redux} />
-              </Grid>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={git} />
-              </Grid>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={github} />
-              </Grid>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={bootstrap} />
-              </Grid>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={material} />
-              </Grid>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={postgres} />
-              </Grid>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={heroku} />
-              </Grid>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={firebase} />
-              </Grid>
-              <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={mongo} />
-              </Grid>
-            </Grid>
-          </Paper>
+        <Container className={classes.cardGrid} maxWidth='lg'>
           <Paper
             xs={12}
             md={12}
             style={{ width: '100%', marginBottom: '12px' }}
           >
             <Typography variant='h4' component='h4'>
-              Here are a few projects that I built on my own time. Feel free to
-              check them out.{' '}
+              Here are a few personal projects I built.
             </Typography>
             <Typography variant='h4' component='h4'>
-              Enjoy!
+              Feel free to check them out.{' '}
             </Typography>
           </Paper>
           {/* End hero unit */}
@@ -282,6 +233,63 @@ export default function Album() {
               </Grid>
             ))}
           </Grid>
+          <Paper
+            xs={12}
+            md={12}
+            style={{ width: '100%', marginBottom: '12px', marginTop: '12px' }}
+          >
+            <Typography variant='h6' component='h6'>
+              Some of the Technologies I find useful:
+            </Typography>
+
+            <Grid container>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={javascript} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={python} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={reactjs} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={nodeEx} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={redux} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={htmlcss} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={git} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={github} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={bootstrap} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={material} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={postgres} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={heroku} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={firebase} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={mongo} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={es6} />
+              </Grid>
+            </Grid>
+          </Paper>
         </Container>
       </main>
       {/* Footer */}
@@ -303,5 +311,5 @@ const focusStyles = {
   border: '1px blue solid',
   width: '125px',
   height: '90%',
-  marginRight: '10px'
+  marginRight: '10px',
 };
