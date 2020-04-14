@@ -34,6 +34,7 @@ import postgres from '../assets/img/postgres.png';
 import python from '../assets/img/python.png';
 import es6 from '../assets/img/es6.png';
 import javascript from '../assets/img/javascript.png';
+import django from '../assets/img/django.png';
 
 function Copyright() {
   return (
@@ -257,6 +258,9 @@ export default function Album() {
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
                 <img style={iconStyles} src={redux} />
+              </Grid>
+              <Grid item xs={3} sm={2} md={1}>
+                <img style={iconStyles} src={django} />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
                 <img style={iconStyles} src={htmlcss} />
