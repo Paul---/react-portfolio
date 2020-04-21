@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.5f361e03.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.4fdcfcb7.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.4fdcfcb7.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.6a33f46a.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.6a33f46a.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.94aeab10.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.94aeab10.js.map",
     "static/css/2.b1c0a7e4.chunk.css": "/react-portfolio/static/css/2.b1c0a7e4.chunk.css",
-    "static/js/2.e01ef060.chunk.js": "/react-portfolio/static/js/2.e01ef060.chunk.js",
-    "static/js/2.e01ef060.chunk.js.map": "/react-portfolio/static/js/2.e01ef060.chunk.js.map",
+    "static/js/2.5bffb1a7.chunk.js": "/react-portfolio/static/js/2.5bffb1a7.chunk.js",
+    "static/js/2.5bffb1a7.chunk.js.map": "/react-portfolio/static/js/2.5bffb1a7.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.680416305d39a68af69d0c2505053dbf.js": "/react-portfolio/precache-manifest.680416305d39a68af69d0c2505053dbf.js",
+    "precache-manifest.1d898f7c2d850cc12b7a1ff955973cf9.js": "/react-portfolio/precache-manifest.1d898f7c2d850cc12b7a1ff955973cf9.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.b1c0a7e4.chunk.css.map": "/react-portfolio/static/css/2.b1c0a7e4.chunk.css.map",
     "static/css/main.5f361e03.chunk.css.map": "/react-portfolio/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.e01ef060.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.e01ef060.chunk.js.LICENSE.txt",
+    "static/js/2.5bffb1a7.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.5bffb1a7.chunk.js.LICENSE.txt",
     "static/media/bootstrap.jfif": "/react-portfolio/static/media/bootstrap.1134a391.jfif",
-    "static/media/django.png": "/react-portfolio/static/media/django.dfa36257.png",
     "static/media/ecommerce.png": "/react-portfolio/static/media/ecommerce.5a6e1025.png",
     "static/media/es6.png": "/react-portfolio/static/media/es6.a263b075.png",
     "static/media/facial.png": "/react-portfolio/static/media/facial.46669fd0.png",
@@ -31,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.94aeab10.js",
     "static/css/2.b1c0a7e4.chunk.css",
-    "static/js/2.e01ef060.chunk.js",
+    "static/js/2.5bffb1a7.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.4fdcfcb7.chunk.js"
+    "static/js/main.6a33f46a.chunk.js"
   ]
 }
