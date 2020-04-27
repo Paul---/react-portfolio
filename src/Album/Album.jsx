@@ -202,7 +202,7 @@ export default function Album() {
                   <CardMedia
                     className={classes.cardMedia}
                     image={card.img}
-                    title='Image title'
+                    title={card.heading}
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant='h5' component='h2'>
@@ -244,49 +244,53 @@ export default function Album() {
 
             <Grid container>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={javascript} alt='javascript logo'/>
+                <img
+                  style={iconStyles}
+                  src={javascript}
+                  alt='javascript logo'
+                />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={python} alt='python logo'/>
+                <img style={iconStyles} src={python} alt='python logo' />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={reactjs} alt='react logo'/>
+                <img style={iconStyles} src={reactjs} alt='react logo' />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={nodeEx} alt='node express logo'/>
+                <img style={iconStyles} src={nodeEx} alt='node express logo' />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={redux} alt='Redux Logo'/>
+                <img style={iconStyles} src={redux} alt='Redux Logo' />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={htmlcss} alt='HTML CSS logo'/>
+                <img style={iconStyles} src={htmlcss} alt='HTML CSS logo' />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={git} alt='git logo'/>
+                <img style={iconStyles} src={git} alt='git logo' />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={github} alt='github logo'/>
+                <img style={iconStyles} src={github} alt='github logo' />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={bootstrap} alt='bootstrap logo'/>
+                <img style={iconStyles} src={bootstrap} alt='bootstrap logo' />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={material} alt='material ui logo'/>
+                <img style={iconStyles} src={material} alt='material ui logo' />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={postgres} alt='postgres logo'/>
+                <img style={iconStyles} src={postgres} alt='postgres logo' />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={heroku} alt='heroku logo'/>
+                <img style={iconStyles} src={heroku} alt='heroku logo' />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={firebase} alt='firebase logo'/>
+                <img style={iconStyles} src={firebase} alt='firebase logo' />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={mongo} alt='mongo db logo'/>
+                <img style={iconStyles} src={mongo} alt='mongo db logo' />
               </Grid>
               <Grid item xs={3} sm={2} md={1}>
-                <img style={iconStyles} src={es6} alt='ES6 Javascript logo'/>
+                <img style={iconStyles} src={es6} alt='ES6 Javascript logo' />
               </Grid>
             </Grid>
           </Paper>
